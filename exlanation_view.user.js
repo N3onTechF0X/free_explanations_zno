@@ -13,11 +13,6 @@ document.head.appendChild(styleElement);
 styleElement.textContent = `
 .task-card.current > .explanation {
   display: block !important;
-  filter: blur(4px);
-  transition: filter 0.3s ease;
-}
-.task-card.current > .explanation:hover {
-  filter: blur(0px);
 }
 .task-card.current > form > .two-buttons-container > .bw-left > .explan_open {
   display: none !important;
